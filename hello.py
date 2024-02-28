@@ -1,15 +1,18 @@
-age = input ("How old are you? ")
+x = int(input("X: "))
+y = int(input("Y: "))
 
-if int(age) >= 18:
-    print ("You are adult already.")
-else:
-    print ("You are infant yet.")
+if x == 0:
+    print("X can`t be equal to zero")
+    x = int(input("X: "))
 
-a = input('Введіть число: ')
-a = int(a)
-if a > 0:
-    print("Число додатне")
-elif a < 0:
-    print("Число від'ємне")
-else:
-    print("Це число - нуль (зееееро)")
+    if x == 0:
+        print("X can`t be equal to zero")
+        x = int(input("X: "))
+
+        if x == 0:
+            print("X can`t be equal to zero")
+            x = int(input("X: "))
+
+result = y / x
+
+print (result)
