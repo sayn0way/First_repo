@@ -14,5 +14,4 @@ if x == 0:
             x = int(input("X: "))
 
 result = y / x
-
-print (result)
+print(int(result))
